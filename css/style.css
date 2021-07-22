@@ -98,7 +98,7 @@ a:focus {
 }
 
 .header_section {
-  background-color: #3a4468;
+  background-color: #041E42;
 }
 
 .header_section .container-fluid {
@@ -108,7 +108,6 @@ a:focus {
 
 .header_section .header_top {
   padding: 15px 0;
-  background-color: #434f78;
 }
 
 .header_section .header_bottom {
@@ -207,7 +206,9 @@ a:focus {
   font-size: 28px;
   font-weight: bold;
 }
-
+ .navbar-brand img{
+   width: 30%;
+ }
 .navbar-brand span {
   color: #ffffff;
 }

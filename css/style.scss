@@ -2,7 +2,7 @@ $white: #ffffff;
 $black: #000000;
 $primary1: #f3c93e;
 // $primary1: #f3473e;
-$primary2: #3a4468;
+$primary2: #041E42;
 $textCol: #999;
 
 @mixin main-font {
@@ -128,15 +128,12 @@ a:focus {
 
   .header_top {
     padding: 15px 0;
-    background-color: lighten($color: $primary2, $amount: 5);
-
+    background-color: $primary2;
   }
 
   .header_bottom {
     padding: 10px 0;
-
-
-
+    background-color: $primary2;
   }
 
 }
