@@ -1,0 +1,28 @@
+{
+  "name": "e-mart",
+  "version": "1.0.0",
+  "description": "Collaborative shopping application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev" : "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swarnalii/e-mart.git"
+  },
+  "author": "Swarnali Mondal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swarnalii/e-mart/issues"
+  },
+  "homepage": "https://github.com/swarnalii/e-mart#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^4.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
