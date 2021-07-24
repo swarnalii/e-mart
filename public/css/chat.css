@@ -14,7 +14,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-	background-image: linear-gradient(to right bottom, #bef4ff, #d4f5ff, #e8f7ff, #f7faff, #ffffff);
+	background-image: linear-gradient(to bottom, #bef4ff, #d4f5ff, #e8f7ff, #f7faff, #ffffff);
 }
 
 ul {
@@ -178,7 +178,6 @@ a {
 
 .btn {
 	cursor: pointer;
-  margin: 0 15px;
   padding: 5px 15px;
   background: #FFC220;
   color: var(--dark-color-a);
@@ -271,10 +270,14 @@ a {
 }
 
 .chat-form-container input[type='text'] {
-	font-size: 16px;
+	font-size: 14px;
 	padding: 5px;
 	height: 40px;
 	flex: 1;
+}
+
+.chat-form-container input[type='text']:focus{
+  border: none;
 }
 
 /* Join Page */
@@ -302,14 +305,14 @@ a {
 
 .left-block .join-header {
 	text-align: center;
-	padding: 20px;
-	/* background: var(--dark-color-a);
-	border-radius: 5px; */
+  margin-top: 5px;
 }
-
+.join-header .heading{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
 .join-main {
 	padding: 30px 40px;
-	/* background: var(--dark-color-b); */
 }
 
 .join-main p {
@@ -326,14 +329,16 @@ a {
 }
 
 .join-main input[type='text'] {
-	font-size: 16px;
+  border: none;
+  background-color: #bef4ff;
+  border-radius: 5px;
 	padding: 5px;
 	height: 40px;
 	width: 100%;
 }
 
-.join-main select {
-	font-size: 16px;
+.join-main input[type='text']:focus {
+  outline: none;
 	padding: 5px;
 	height: 40px;
 	width: 100%;
