@@ -12,7 +12,9 @@ The website built with an aim to showcase the idea for walmart's next innovation
 - It eases the way of communicating with friends while shopping.
 - The product name shared by others can be used to search the product on our end.
 
-### E-mart:
+### E-mart Demo:
+
+![gif](https://github.com/swarnalii/e-mart/blob/main/imgs/e-mart.gif)
 
 ### Tech Stack:
 
@@ -20,4 +22,4 @@ The website built with an aim to showcase the idea for walmart's next innovation
 - For backend: Express
 - Libraries used: Moment, socket.io
 
-### Template from [Free HTML Templates](https://html.design/)
+Template from [Free HTML Templates](https://html.design/)
