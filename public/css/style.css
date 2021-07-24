@@ -207,7 +207,7 @@ a:focus {
   font-weight: bold;
 }
  .navbar-brand img{
-   width: 30%;
+   width: 100px;
  }
 .navbar-brand span {
   color: #ffffff;
