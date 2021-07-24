@@ -76,8 +76,8 @@
                     <li class="nav-item">
                       <a class="nav-link" href="product.html">Products</a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link active" href="chat.html">Chat<span class="sr-only">(current)</span></a>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="chat.html">Chat<span class="sr-only">(current)</span></a>
                     </li>
                   </ul>
                 </div>
@@ -89,36 +89,40 @@
 
         <!--enter chat room section-->
         <div class="join-container">
-			<header class="join-header">
-				<h1>Start Chat</h1>
-			</header>
-			<main class="join-main">
-				<form action="chatpage.html">
-					<div class="form-control-1">
-						<label for="username" class="options">Username</label>
-						<input
-							type="text"
-							name="username"
-							id="username"
-							placeholder="Enter username..."
-							required
-						/>
-					</div>
-					<div class="form-control-1">
-						<label for="room" class="options">Room</label>
-						<select name="room" id="room">
-							<option value="JavaScript">JavaScript</option>
-							<option value="Python">Python</option>
-							<option value="PHP">PHP</option>
-							<option value="C#">C#</option>
-							<option value="Ruby">Ruby</option>
-							<option value="Java">Java</option>
-						</select>
-					</div>
-					<button type="submit" class="btn">Join Chat</button>
-				</form>
-			</main>
-		</div>
+          <div class="left-block">
+            <header class="join-header">
+              <h1>Start Chat</h1>
+            </header>
+            <main class="join-main">
+              <form action="chatroom.html">
+                <div class="form-control-1">
+                  <label for="username" class="options">Username</label>
+                  <input
+                    type="text"
+                    name="username"
+                    id="username"
+                    placeholder="Enter username..."
+                    required
+                  />
+                </div>
+                <div class="form-control-1">
+                  <label for="room" class="options">Room</label>
+                  <input
+                    type="text"
+                    name="room"
+                    id="room"
+                    placeholder="Enter room name..."
+                    required
+                  />
+                </div>
+                <button type="submit" class="btn">Join Chat</button>
+              </form>
+            </main>
+          </div>
+          <div class="right-block">
+            <img src="images/chat-img1.svg" class="landing-img" alt="img" />
+          </div>
+      </div>        
     </div>
 </body>
   <!-- jQery -->
