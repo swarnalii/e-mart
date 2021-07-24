@@ -11,6 +11,13 @@ The website built with an aim to showcase the idea for walmart's next innovation
 
 - It eases the way of communicating with friends while shopping.
 - The product name shared by others can be used to search the product on our end.
+- Asking for suggestions is now easier.
+
+### Features that can be added:
+
+- Group wish list
+- Image/link sharing
+- Video call and screen sharing
 
 ### E-mart Demo:
 
@@ -21,5 +28,8 @@ The website built with an aim to showcase the idea for walmart's next innovation
 - For Frontend: HTML5, CSS3, JS and BootStrap.
 - For backend: Express
 - Libraries used: Moment, socket.io
+#### Note:
+
+This is just a demo website, it doesn't have the e-commerce payment features.
 
 Template from [Free HTML Templates](https://html.design/)
