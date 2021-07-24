@@ -30,6 +30,6 @@ The website built with an aim to showcase the idea for walmart's next innovation
 - Libraries used: Moment, socket.io
 #### Note:
 
-This is just a demo website to showcase the idea of collaborative shopping, it doesn't have most of the e-commerce features.
+This is just a demo website to showcase the idea of collaborative shopping, it doesn't has most of the e-commerce features.
 
 Template from [Free HTML Templates](https://html.design/)
