@@ -473,6 +473,7 @@ a:focus {
   opacity: 0;
   -webkit-transition: all .2s;
   transition: all .2s;
+  cursor: pointer;
 }
 
 .product_section .box .detail-box {
